@@ -1,0 +1,53 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#container-out{
+	padding: 10px;
+}
+
+#container{
+	border: 10px solid red;
+	max-width: 600px;
+	margin: 50px auto 100px auto;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+#recipient,#recipient-cc{
+	opacity: 0.4;
+	font-size: 12px;
+}
+
+#share{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	border-top: 2px solid lightgrey;
+	background-color: white;
+	z-index: 2;
+	text-align: center;
+	font-weight: bold;
+}
+
+#email{
+	display: inline-block;
+	padding: 20px 20px;
+	color: white;
+	background: red;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+}
+
+#network{
+	position: fixed;
+	right: 10px;
+	top: 150px;
+	width: 32px;
+}
